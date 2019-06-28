@@ -27,7 +27,7 @@ Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a l
 
 ## RESULTADOS DE LA ENCUESTA
 
-![Grafica 1](https://photos.app.goo.gl/oJQPRvD9LqMYk8rT8)
+![Grafica 1](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Recuento%20de%20%C2%BFCon%20qu%C3%A9%20g%C3%A9nero%20te%20identificas_1.png)
 
 ![Gráfico 2](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Recuento%20de%20%C2%BFQu%C3%A9%20edad%20tienes_21.png)
 
