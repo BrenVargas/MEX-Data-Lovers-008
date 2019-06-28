@@ -47,8 +47,7 @@ Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a l
 
 ## PROTOTIPADO
 
-Se realizo un scketch de la página web Biblioteca de Pokemones, con lo que se procederá a realizar
-el prototipo, el que será testeado por al menos 5 personas en cada iteración.
+Se realizo un scketch de la página web Biblioteca de Pokemones en las sigientes imágenes:
 
 ![skecht 1](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/sketch11.jpg)
 
@@ -57,6 +56,10 @@ el prototipo, el que será testeado por al menos 5 personas en cada iteración.
 ![skecht 3](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/sketch13.jpg)
 
 ![skecht 4](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/sketch14.jpg)
+
+Con la ayuda de la aplicación web Marvel se creo un prototipo, que será testeado por al menos 5 personas por iteración. Este prototipo se puede observar en el siguiente link [aquí](https://marvelapp.com/7697b17)
+
+
 
 
 
