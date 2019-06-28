@@ -30,6 +30,11 @@ el prototipo, el que será testeado por al menos 5 personas en cada iteración.
 
 ![skecht 1](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Imagen%20de%20iOS%20(1).jpg)
 
+![skecht 2](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Imagen%20de%20iOS%20(2).jpg)
+
+![skecht 3](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Imagen%20de%20iOS%20(3).jpg)
+
+![skecht 4](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Imagen%20de%20iOS.jpg)
 
 
 
