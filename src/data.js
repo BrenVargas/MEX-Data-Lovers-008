@@ -6,3 +6,5 @@ const example = () => {
 };
 
 window.example = example;
+
+console.log(POKEMON);

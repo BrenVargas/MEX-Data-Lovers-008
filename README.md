@@ -1,3 +1,45 @@
+## NOMBRE DE LA PÁGINA WEB: Biblioteca de Pokemones
+
+## DESCRIPCIÓN DE LA PÁGINA WEB:
+Biblioteca de pokemones es una aplicación web para aquellos principiantes en Pokémon Go que desean conocer las características de los pokemones por simple curiosidad o por diversión, también es útil como una introducción a la temática Pokémon Go.
+
+## PROPÓSITO DE LA PÁGINA WEB:
+Facilitar la información básica sobre los 151 Pokemones de la región de Kanto a los usuarios de Pokémon Go con motivaciones diferentes.
+
+##¿A QUIÉN VA DIRIGIDO?:
+Usuarios principiantes de Pokémon Go.
+
+##DEFINICIÓN DE USUARIO PRINCIPIANTE:
+Este usuario puede jugar varias veces al día o a la semana, sin embargo, desconoce las características de los pokemones, estos datos podrían ayudarle para un mejor desempeño en el juego.
+
+## Investigación sobre los usuarios
+
+Encuesta:
+Para investigar a los usuarios se diseñó una encuesta, en Google Forms, que ayudará a conocer las características de los usuarios que usan Pokémon Go, sus motivaciones para consultar una página informativa sobre Pokemones, sus preferencias en cuanto a la estructura de esta información, los colores con que relacionan la temática (esto para dar una idea del diseño de la página).
+
+Nota: se escogió la plataforma Google Forms para realizar la encuesta, porque se cree que llegaría a más gente de esta forma.
+
+Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a los usuarios les interesaría leer sobre pokemones en una página web, si la respuesta era negativa se les agradecía la participación y se enviaba la respuesta, lo que limitaba la recabada de información, por lo que se iteró el formulario. Esta vez, la pregunta mencionada se eliminó.
+
+##Resultados de la Encuesta
+
+
+## Prototipo
+Se realizo un scketch de la página web Biblioteca de Pokemones, con lo que se procederá a realizar
+el prototipo, el que será testeado por al menos 5 personas en cada iteración.
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
 # Data Lovers
 
 ## Índice
@@ -63,7 +105,7 @@ Estos son datos que te proponemos:
   este [link](https://developer.riotgames.com/api-methods/).
 - [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
   Este set nos proporciona la lista de los personajes de la serie Rick and
-  Morty. Puedes revisar la documentación de su API en este [link](https://rickandmortyapi.com). 
+  Morty. Puedes revisar la documentación de su API en este [link](https://rickandmortyapi.com).
 
 
 Como entregable final tendrás una página web que permita **visualizar la data,
