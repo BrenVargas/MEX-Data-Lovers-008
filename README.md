@@ -47,6 +47,7 @@ Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a l
 
 ## PROTOTIPADO
 
+### Primera iteración
 Se realizo un scketch de la página web Biblioteca de Pokemones en las sigientes imágenes:
 
 ![skecht 1](img/sketch11.jpg)
