@@ -45,6 +45,15 @@ Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a l
 
 ![Gráfico 9](img/img_9.png)
 
+## HISTORIAS DE USUARIO
+
+- Como usuario, quiere saber los nombres de los pokemones
+- Como usuario, quiere saber las instrucciones del juego
+- Como usuario, quiere conocer el id de los pokemones
+- Como usuario, quiere conocer las evoluciones de los pokemones
+- Como usuario, quiere conocer las debilidades de los pokemones
+- Como usuario, quiere conocer los ataque de los pokemones
+
 ## PROTOTIPADO
 
 ### Prototipo de Baja fidelidad
@@ -62,9 +71,15 @@ Se realizo un scketch de la página web Biblioteca de Pokemones en las sigientes
 
 Con la ayuda de la aplicación web Marvel se creo un prototipo, que será testeado por al menos 5 personas por iteración. Este prototipo se puede observar en el siguiente link [aquí](https://marvelapp.com/7697b17)
 
+Nota: Aún esta pendiente la realización del testeo de los prototipos.
+
 ### Prototipo de Alta fidelidad
 Se realizó un prototipo de Alta fidelidad con ayuda del editor de diseño Figma, en la siguiente imagen se puede observar 
 ![Prototipo de Alta fidelidad](img/Alta_fidelidad.png)
+
+Nota: Aún esta pendiente la realización del testeo de los prototipos.
+
+## Testeos de usabilidad
 
 
 
