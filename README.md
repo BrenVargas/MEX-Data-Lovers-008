@@ -8,10 +8,12 @@ Biblioteca de pokemones es una aplicación web para aquellos principiantes en Po
 ## PROPÓSITO DE LA PÁGINA WEB:
 Facilitar la información básica sobre los 151 Pokemones de la región de Kanto a los usuarios de Pokémon Go con motivaciones diferentes.
 
-##¿A QUIÉN VA DIRIGIDO?:
+## ¿A QUIÉN VA DIRIGIDO?:
+
 Usuarios principiantes de Pokémon Go.
 
-##DEFINICIÓN DE USUARIO PRINCIPIANTE:
+## DEFINICIÓN DE USUARIO PRINCIPIANTE:
+
 Este usuario puede jugar varias veces al día o a la semana, sin embargo, desconoce las características de los pokemones, estos datos podrían ayudarle para un mejor desempeño en el juego.
 
 ## INVESTIGACIÓN SOBRE LOS USUARIOS
