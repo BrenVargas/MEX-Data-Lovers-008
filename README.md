@@ -21,12 +21,14 @@ Nota: se escogió la plataforma Google Forms para realizar la encuesta, porque s
 
 Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a los usuarios les interesaría leer sobre pokemones en una página web, si la respuesta era negativa se les agradecía la participación y se enviaba la respuesta, lo que limitaba la recabada de información, por lo que se iteró el formulario. Esta vez, la pregunta mencionada se eliminó.
 
-##Resultados de la Encuesta
+## Resultados de la Encuesta
 
 
 ## Prototipo
 Se realizo un scketch de la página web Biblioteca de Pokemones, con lo que se procederá a realizar
 el prototipo, el que será testeado por al menos 5 personas en cada iteración.
+
+![skecht 1](https://github.com/Bere333/MEX-Data-Lovers-008/Imagen de iOS (1).jpg)
 
 
 
