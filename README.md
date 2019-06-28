@@ -33,7 +33,7 @@ Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a l
 
 ![Gráfico 3](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Recuento%20de%20%C2%BFPor%20qu%C3%A9%20%20consultar%C3%ADas%20una%20p%C3%A1gina%20con%20informaci%C3%B3n%20de%20Pok%C3%A9mon%20Go_3.png)
 
-![Gráfico 4](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Recuento%20de%20%C2%BFQu%C3%A9%20tanta%20experiencia%20tienes%20en%20Pok%C3%A9mon%20Go_4.png)
+![Gráfico 4](https://github.com/Bere333/MEX-Data-Lovers-008/master/Recuento%20de%20%C2%BFQu%C3%A9%20tanta%20experiencia%20tienes%20en%20Pok%C3%A9mon%20Go_4.png)
 
 ![Gráfico 5](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Recuento%20de%20%C2%BFSabes%20c%C3%B3mo%20se%20clasifican%20los%20pokemones_5.png)
 
