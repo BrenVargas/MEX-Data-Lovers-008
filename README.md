@@ -27,6 +27,23 @@ Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a l
 
 ## RESULTADOS DE LA ENCUESTA
 
+![Grafica 1](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/src/Recuento%20de%20%C2%BFCon%20qu%C3%A9%20g%C3%A9nero%20te%20identificas_1.png)
+
+![Gráfico 2](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/src/Recuento%20de%20%C2%BFQu%C3%A9%20edad%20tienes_21.png)
+
+![Gráfico 3](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/src/Recuento%20de%20%C2%BFPor%20qu%C3%A9%20%20consultar%C3%ADas%20una%20p%C3%A1gina%20con%20informaci%C3%B3n%20de%20Pok%C3%A9mon%20Go_3.png)
+
+![Gráfico 4](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/src/Recuento%20de%20%C2%BFQu%C3%A9%20tanta%20experiencia%20tienes%20en%20Pok%C3%A9mon%20Go_4.png)
+
+![Gráfico 5](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/src/Recuento%20de%20%C2%BFSabes%20c%C3%B3mo%20se%20clasifican%20los%20pokemones_5.png)
+
+![Gráfico 6](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/src/Recuento%20de%20%C2%BFC%C3%B3mo%20te%20gustar%C3%ADa%20que%20estuvieran%20clasificados%20en%20una%20p%C3%A1gina%20web_6.png)
+
+![Gráfico 7](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/src/Recuento%20de%20%C2%BFDe%20qu%C3%A9%20forma%20te%20gustar%C3%ADa%20consultar%20la%20informaci%C3%B3n%20de%20los%20pokemones_7.png)
+
+![Gráfico 8](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/src/%C2%BFCon%20qu%C3%A9%20colores%20relacionas%20la%20aplicaci%C3%B3n%20de%20Pok%C3%A9mon%20Go_8.png)
+
+![Gráfico 9](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/src/%C2%BFCu%C3%A1les%20son%20los%20datos%20que%20crees%20m%C3%A1s%20relevantes%20para%20un%20primerizo%20en%20Pok%C3%A9mon%20Go_9.png)
 
 ## PROTOTIPADO
 
