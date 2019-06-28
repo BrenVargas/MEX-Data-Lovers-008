@@ -1,3 +1,5 @@
+# BIBLIOTECA DE POKEMONES
+
 ## NOMBRE DE LA PÁGINA WEB: Biblioteca de Pokemones
 
 ## DESCRIPCIÓN DE LA PÁGINA WEB:
@@ -6,13 +8,15 @@ Biblioteca de pokemones es una aplicación web para aquellos principiantes en Po
 ## PROPÓSITO DE LA PÁGINA WEB:
 Facilitar la información básica sobre los 151 Pokemones de la región de Kanto a los usuarios de Pokémon Go con motivaciones diferentes.
 
-##¿A QUIÉN VA DIRIGIDO?:
+## ¿A QUIÉN VA DIRIGIDO?:
+
 Usuarios principiantes de Pokémon Go.
 
-##DEFINICIÓN DE USUARIO PRINCIPIANTE:
+## DEFINICIÓN DE USUARIO PRINCIPIANTE:
+
 Este usuario puede jugar varias veces al día o a la semana, sin embargo, desconoce las características de los pokemones, estos datos podrían ayudarle para un mejor desempeño en el juego.
 
-## Investigación sobre los usuarios
+## INVESTIGACIÓN SOBRE LOS USUARIOS
 
 Encuesta:
 Para investigar a los usuarios se diseñó una encuesta, en Google Forms, que ayudará a conocer las características de los usuarios que usan Pokémon Go, sus motivaciones para consultar una página informativa sobre Pokemones, sus preferencias en cuanto a la estructura de esta información, los colores con que relacionan la temática (esto para dar una idea del diseño de la página).
@@ -21,15 +25,21 @@ Nota: se escogió la plataforma Google Forms para realizar la encuesta, porque s
 
 Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a los usuarios les interesaría leer sobre pokemones en una página web, si la respuesta era negativa se les agradecía la participación y se enviaba la respuesta, lo que limitaba la recabada de información, por lo que se iteró el formulario. Esta vez, la pregunta mencionada se eliminó.
 
-## Resultados de la Encuesta
+## RESULTADOS DE LA ENCUESTA
 
 
-## Prototipo
+## PROTOTIPADO
+
 Se realizo un scketch de la página web Biblioteca de Pokemones, con lo que se procederá a realizar
 el prototipo, el que será testeado por al menos 5 personas en cada iteración.
 
-![skecht 1](https://github.com/Bere333/MEX-Data-Lovers-008/Imagen_de_iOS_(1).jpg)
+![skecht 1](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Imagen%20de%20iOS%20(1).jpg)
 
+![skecht 2](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Imagen%20de%20iOS%20(2).jpg)
+
+![skecht 3](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Imagen%20de%20iOS%20(3).jpg)
+
+![skecht 4](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Imagen%20de%20iOS.jpg)
 
 
 
