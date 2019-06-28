@@ -59,6 +59,7 @@ Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a l
 ### Prototipo de Baja fidelidad
 
 #### Primera iteración
+
 Se realizo un scketch de la página web Biblioteca de Pokemones en las sigientes imágenes:
 
 ![skecht 1](img/sketch11.jpg)
@@ -74,7 +75,9 @@ Con la ayuda de la aplicación web Marvel se creo un prototipo, que será testea
 Nota: Aún esta pendiente la realización del testeo de los prototipos.
 
 ### Prototipo de Alta fidelidad
+
 Se realizó un prototipo de Alta fidelidad con ayuda del editor de diseño Figma, en la siguiente imagen se puede observar 
+
 ![Prototipo de Alta fidelidad](img/Alta_fidelidad.png)
 
 Nota: Aún esta pendiente la realización del testeo de los prototipos.
