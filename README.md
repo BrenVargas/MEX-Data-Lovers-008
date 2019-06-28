@@ -28,7 +28,7 @@ Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a l
 Se realizo un scketch de la página web Biblioteca de Pokemones, con lo que se procederá a realizar
 el prototipo, el que será testeado por al menos 5 personas en cada iteración.
 
-![skecht 1](https://github.com/Bere333/MEX-Data-Lovers-008/Imagen_de_iOS_(1).jpg)
+![skecht 1](https://github.com/Bere333/MEX-Data-Lovers-008/blob/master/Imagen%20de%20iOS%20(1).jpg)
 
 
 
