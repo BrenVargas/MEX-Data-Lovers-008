@@ -1,0 +1,34 @@
+.box select{
+    font-size: 1em;
+    width: 10em;
+    height: 2em;
+    background: pink;
+    font-family: 'Righteous', cursive;
+
+}
+
+/* .wrapper {
+  display: grid; */
+
+  /* grid-template-columns: 1fr 1fr 1fr ; */
+  /* grid-column-gap: 2em;
+  grid-row-gap: 2em; */
+/* } */
+
+/* #cabeza{
+    display: flex; align-items:  ;
+
+}
+
+#imagen-principal{
+    
+    margin-left: 750px; 
+    
+    
+}  */
+body{
+    
+    font-family: 'Righteous', cursive;
+    background-color: rgb(243, 245, 138);
+    /* font-family: 'Alfa Slab One', cursive; */
+ } 
