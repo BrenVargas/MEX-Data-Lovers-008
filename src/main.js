@@ -20,9 +20,10 @@ data.forEach(element => {
 
   str += `
   <h2>${pokeName}</h2> 
+  <img src="${pokeImg}" alt=""></img>
   <p>${pokeType}</p>  
   <p>${pokeWeaknesses}</p> 
-  <img src="${pokeImg}" alt=""></img>
+  
  
   `;
 })
