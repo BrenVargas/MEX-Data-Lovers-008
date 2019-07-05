@@ -72,7 +72,6 @@ Se realizo un scketch de la página web Biblioteca de Pokemones en las sigientes
 
 Con la ayuda de la aplicación web Marvel se creo un prototipo, que será testeado por al menos 5 personas por iteración. Este prototipo se puede observar en el siguiente link [aquí](https://marvelapp.com/7697b17)
 
-Nota: Aún esta pendiente la realización del testeo de los prototipos.
 
 ### Prototipo de Alta fidelidad
 
@@ -80,10 +79,17 @@ Se realizó un prototipo de Alta fidelidad con ayuda del editor de diseño Figma
 
 ![Prototipo de Alta fidelidad](img/Alta_fidelidad.png)
 
-Nota: Aún esta pendiente la realización del testeo de los prototipos.
+En base a este diseño, se creo el prototipo de alta fidelidad en Marvel que se puede consultar [aquí](https://marvelapp.com/c49cj3e/screen/58800471) 
 
 ## Testeos de usabilidad
 
+El prototipo anterior fue testeado por compañeras de Laboratoria en Slack y se obtuvieron diferentes feedback:
+
+- Cambio de tipo de letra del titulo "Biblioteca"
+- Colores más contrastantes para la información de cada Pokémon 
+- La opción de un buscador, que muestre la información que el usuario necesite conocer
+- El diseño es sencillo y bonito
+- Es intuitivo 
 
 
 
