@@ -55,3 +55,4 @@ selectType.addEventListener("change", () => {
 
 /* <h2>ID: ${pokeId}</h2>
   <h2>NÚM: ${pokeNum}</h2> */
+

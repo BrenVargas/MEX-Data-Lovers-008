@@ -1,3 +1,108 @@
+# BIBLIOTECA DE POKEMONES
+
+## NOMBRE DE LA PÁGINA WEB: Biblioteca de Pokemones
+
+## DESCRIPCIÓN DE LA PÁGINA WEB:
+Biblioteca de pokemones es una aplicación web para aquellos principiantes en Pokémon Go que desean conocer las características de los pokemones por simple curiosidad o por diversión, también es útil como una introducción a la temática Pokémon Go.
+
+## PROPÓSITO DE LA PÁGINA WEB:
+Facilitar la información básica sobre los 151 Pokemones de la región de Kanto a los usuarios de Pokémon Go con motivaciones diferentes.
+
+## ¿A QUIÉN VA DIRIGIDO?:
+
+Usuarios principiantes de Pokémon Go.
+
+## DEFINICIÓN DE USUARIO PRINCIPIANTE:
+
+Este usuario puede jugar varias veces al día o a la semana, sin embargo, desconoce las características de los pokemones, estos datos podrían ayudarle para un mejor desempeño en el juego.
+
+## INVESTIGACIÓN SOBRE LOS USUARIOS
+
+Encuesta:
+Para investigar a los usuarios se diseñó una encuesta, en Google Forms, que ayudará a conocer las características de los usuarios que usan Pokémon Go, sus motivaciones para consultar una página informativa sobre Pokemones, sus preferencias en cuanto a la estructura de esta información, los colores con que relacionan la temática (esto para dar una idea del diseño de la página).
+
+Nota: se escogió la plataforma Google Forms para realizar la encuesta, porque se cree que llegaría a más gente de esta forma.
+
+Se diseñó una primera encuesta que incluyó una pregunta que consultaba si a los usuarios les interesaría leer sobre pokemones en una página web, si la respuesta era negativa se les agradecía la participación y se enviaba la respuesta, lo que limitaba la recabada de información, por lo que se iteró el formulario. Esta vez, la pregunta mencionada se eliminó.
+
+## RESULTADOS DE LA ENCUESTA
+
+![Grafica 1](img/img_1.png)
+
+![Gráfico 2](img/img_2.png)
+
+![Gráfico 3](img/img_3.png)
+
+![Gráfico 4](img/img_4.png)
+
+![Gráfico 5](img/img_5.png)
+
+![Gráfico 6](img/img_6.png)
+
+![Gráfico 7](img/img_7.png)
+
+![Gráfico 8](img/img_8.png)
+
+![Gráfico 9](img/img_9.png)
+
+## HISTORIAS DE USUARIO
+
+- Como usuario, quiere saber los nombres de los pokemones
+- Como usuario, quiere saber las instrucciones del juego
+- Como usuario, quiere conocer el id de los pokemones
+- Como usuario, quiere conocer las evoluciones de los pokemones
+- Como usuario, quiere conocer las debilidades de los pokemones
+- Como usuario, quiere conocer los ataque de los pokemones
+
+## PROTOTIPADO
+
+### Prototipo de Baja fidelidad
+
+#### Primera iteración
+
+Se realizo un scketch de la página web Biblioteca de Pokemones en las sigientes imágenes:
+
+![skecht 1](img/sketch11.jpg)
+
+![skecht 2](img/sketch12.jpg)
+
+![skecht 3](img/sketch13.jpg)
+
+![skecht 4](img/sketch14.jpg)
+
+Con la ayuda de la aplicación web Marvel se creo un prototipo, que será testeado por al menos 5 personas por iteración. Este prototipo se puede observar en el siguiente link [aquí](https://marvelapp.com/7697b17)
+
+
+### Prototipo de Alta fidelidad
+
+Se realizó un prototipo de Alta fidelidad con ayuda del editor de diseño Figma, en la siguiente imagen se puede observar 
+
+![Prototipo de Alta fidelidad](img/Alta_fidelidad.png)
+
+En base a este diseño, se creo el prototipo de alta fidelidad en Marvel que se puede consultar [aquí](https://marvelapp.com/c49cj3e/screen/58800471) 
+
+## Testeos de usabilidad
+
+El prototipo anterior fue testeado por compañeras de Laboratoria en Slack y se obtuvieron diferentes feedback:
+
+- Cambio de tipo de letra del titulo "Biblioteca"
+- Colores más contrastantes para la información de cada Pokémon 
+- La opción de un buscador, que muestre la información que el usuario necesite conocer
+- El diseño es sencillo y bonito
+- Es intuitivo 
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
 # Data Lovers
 
 ## Índice
@@ -63,7 +168,7 @@ Estos son datos que te proponemos:
   este [link](https://developer.riotgames.com/api-methods/).
 - [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
   Este set nos proporciona la lista de los personajes de la serie Rick and
-  Morty. Puedes revisar la documentación de su API en este [link](https://rickandmortyapi.com). 
+  Morty. Puedes revisar la documentación de su API en este [link](https://rickandmortyapi.com).
 
 
 Como entregable final tendrás una página web que permita **visualizar la data,
