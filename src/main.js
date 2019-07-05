@@ -1,29 +1,53 @@
-const pokeData = POKEMON;
-const pokeMones = pokeData.pokemon;
-let pokeNames = pokeMones.filter(name => {
-    for (let i = 0; i <= 99; i = i + 1){
-        let pokeImg = pokeMones[i]["img"];
-        console.log(pokeImg);
-        let pokeNam = pokeMones[i]["name"];
-        console.log(pokeNam);
-        let pokeId = pokeMones[i]["id"]
-        console.log(pokeId);
-        let pokeType = pokeMones[i]["next_evolution"]
-        console.log(pokeType);
-        let pokeType1 = pokeMones[i]["prev_evolution"]
-        console.log(pokeType1);
-        let pokeWeak = pokeMones[i]["weaknesses"]
-        console.log(pokeWeak);
-                
-           
-        }
+
+/*document.getElementById("eligetipo1").addEventListener("click", () => {
+const root = document.getElementById("root");
+const pokeMones = POKEMON.pokemon;
+let typeOfPokemon = document.getElementById("eligetipo1").value;
+//let pokeCondition = (typeOfPokemon === "Grass");
+//let filterData1 = window.POKEMON.type(pokeMones, pokeCondition);
+const filterData = (pokeMones,typeOfPokemon) => {
+        pokeMones.filter( filtration => typeOfPokemon == filtration.type)
+      console.log(filterData);
+      
+       return filtration.type;
+       //console.log(pokeMones.type);
+       
+      }
+      console.log();
+//let str = "";
+
+/*let pokeDataMos = pokeMones.forEach(element => { // Esto es para mostrar las tarjetitas
+    //console.log(element);
+        let pokeImg = element.img;
+        //console.log(pokeImg);
+        let pokeNam = element.name;
+        //console.log(pokeNam);
+        let pokeId = element.id;
+        //console.log(pokeId);
+        let pokeType = element.type;
+        //console.log(pokeType);
+        let pokeType1 = element.next_evolution;
+        //let pokeEvol = pokeType1
+
+        str +=`
+        <img src ="${pokeImg}" alt=""></img>
+        <h2>${pokeNam}</h2>
+        <h2>${pokeId}</h2>
+        <h2>${pokeType}</h2>
+        <h2>${pokeType1}</h2>
+        `;        
+});*/
+
+
+
+//root.innerHTML = str
+
+        
+        
+//});
+       
+        
     
-    //console.log(name);
-    
-})
-    
-    //console.log(pokeData);
-    //console.log(pokeMones);
     
 
     
