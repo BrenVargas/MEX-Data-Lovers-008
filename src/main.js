@@ -1,53 +1,58 @@
+const data = POKEMON.pokemon;
 
-/*document.getElementById("eligetipo1").addEventListener("click", () => {
+// document.getElementById("select-type").addEventListener("click", () => {
+
+
 const root = document.getElementById("root");
-const pokeMones = POKEMON.pokemon;
-let typeOfPokemon = document.getElementById("eligetipo1").value;
-//let pokeCondition = (typeOfPokemon === "Grass");
-//let filterData1 = window.POKEMON.type(pokeMones, pokeCondition);
-const filterData = (pokeMones,typeOfPokemon) => {
-        pokeMones.filter( filtration => typeOfPokemon == filtration.type)
-      console.log(filterData);
-      
-       return filtration.type;
-       //console.log(pokeMones.type);
-       
-      }
-      console.log();
-//let str = "";
 
-/*let pokeDataMos = pokeMones.forEach(element => { // Esto es para mostrar las tarjetitas
-    //console.log(element);
-        let pokeImg = element.img;
-        //console.log(pokeImg);
-        let pokeNam = element.name;
-        //console.log(pokeNam);
-        let pokeId = element.id;
-        //console.log(pokeId);
-        let pokeType = element.type;
-        //console.log(pokeType);
-        let pokeType1 = element.next_evolution;
-        //let pokeEvol = pokeType1
 
-        str +=`
-        <img src ="${pokeImg}" alt=""></img>
-        <h2>${pokeNam}</h2>
-        <h2>${pokeId}</h2>
-        <h2>${pokeType}</h2>
-        <h2>${pokeType1}</h2>
-        `;        
-});*/
+const printPokemons = (data) => {
+let str = " ";
+
+data.forEach(element => {
+  let pokeId = element.id;
+  let pokeNum = element.num;
+  let pokeName = element.name;
+  let pokeImg = element.img;
+  let pokeType = element.type;
+  let pokeWeaknesses = element.weaknesses;
+  let pokeNextEvolution = element.next_evolution;
+
+  str += `
+  <h2>${pokeName}</h2> 
+  <img src="${pokeImg}" alt=""></img>
+  <p>${pokeType}</p>  
+  <p>${pokeWeaknesses}</p> 
+  
+ 
+  `;
+})
+
+root.innerHTML = str;
+}
+
+// printPokemons(data);  
 
 
 
-//root.innerHTML = str
+// })
 
-        
-        
-//});
-       
-        
-    
-    
+const selectType = document.getElementById("select-type");
+
+selectType.addEventListener("change", () => {
+  const selectUser = selectType.value
+  // const pokeFilter = data.filter(tierra => tierra.type.includes(selectUser));
+  const pokeFilter = data.filter(pokemones => pokemones.type[0] == selectUser);
+  console.log(pokeFilter);
+  printPokemons(pokeFilter)
+})
+
+
+
+
 
     
+
+/* <h2>ID: ${pokeId}</h2>
+  <h2>NÚM: ${pokeNum}</h2> */
+

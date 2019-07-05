@@ -1,0 +1,45 @@
+header{
+    background-color: red;
+    text-align: center;  
+}
+
+body{
+    background-color: rgb(247, 247, 192)
+}
+
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 60px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#logo-pokemon{
+    width: 400px;
+}
+
+#select-type:hover{
+    background-color: rgb(196, 196, 196)
+}
+
+#select-type{
+    background-color: rgb(219, 216, 216);
+    font-family: 'Luckiest Guy', cursive;
+    /* font-size: 40px; */
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px;
+}
+
+#first-section{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+p{
+    font-family: 'Days One', sans-serif;
+    /* font-family: 'Fredoka One', cursive; */
+}
