@@ -2,11 +2,15 @@
 // puedes ver como agregamos la función a nuestro objeto global window
 
 
-const example = () => {
-  return "example";
+const pokeFil = (data, condition) => {
+  
+  let pokeTrueCondition = data.filter(dataPoke => dataPoke.type == condition)
+  console.log(pokeTrueCondition);
+  
+  return pokeTrueCondition;
+
+  
 };
 
-window.example = example;
-
-// console.log(POKEMON)
+window.pokeFil = pokeFil ;
 
