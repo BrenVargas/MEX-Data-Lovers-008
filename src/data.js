@@ -8,8 +8,6 @@ const pokeFil = (data, condition) => {
   console.log(pokeTrueCondition);
   
   return pokeTrueCondition;
-
-  
 };
 
 window.pokeFil = pokeFil ;

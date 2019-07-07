@@ -43,15 +43,13 @@ console.log(imValue);
   printPokemons
   return printPokemons
 }};*/
-let pokeFilterData = window.pokeFil(data, imValue);
-//let conditionFil = (pokeFilterData) => printPokemons;
-//console.log(conditionFil);
+let pokeFilterData = window.pokeFil(data, imValue)
 
 console.log(pokeFilterData);
 
 const root = document.getElementById("root");
 
-const printPokemons = (pokeFilterData) => {
+
   let str = " ";
   
   pokeFilterData.forEach(element => {
@@ -72,11 +70,11 @@ const printPokemons = (pokeFilterData) => {
    
     `;
   })
-  
-  
   root.innerHTML = str;
-  }
+  
 
+    
+  
 });
 
 
