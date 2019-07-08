@@ -4,7 +4,7 @@
 
 const pokeFil = (data, condition) => {
   
-  let pokeTrueCondition = data.filter(dataPoke => dataPoke.type[0] == condition)
+  let pokeTrueCondition = data.filter(dataPoke => dataPoke.type[0] == condition || dataPoke.type[1] == condition)
   console.log(pokeTrueCondition);
   
   return pokeTrueCondition;
