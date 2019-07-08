@@ -4,7 +4,7 @@ body {
     position: absolute;
     width: 100%;
     display: table;
-    background-image: url("https://images5.alphacoders.com/614/thumb-1920-614955.png");
+    background-image: url("http://media.tumblr.com/tumblr_m7zi6upchE1qcsjxo.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
     }
@@ -36,7 +36,8 @@ h1{
 }
 
 #logo-pokemon{
-    width: 400px;
+    width: 20%;
+    height: 10%;
 }
 
 #select-type:hover{
