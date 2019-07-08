@@ -27,6 +27,7 @@ const root = document.getElementById("root");
     str += `<div class="w3-card-8"><center>
     <h2 class=""> Nombre del pokémon: ${pokeName}</h2> 
     <img src="${pokeImg}" alt=""></img>
+    <p>Num. de Pokémon:"${pokeId}"</p>
     <p>Tipo de pokémon: ${pokeType}</p>  
     <p>Debilidades: ${pokeWeaknesses}</p> 
     

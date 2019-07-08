@@ -1,7 +1,28 @@
+body {
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    display: table;
+    background-image: url("https://images5.alphacoders.com/614/thumb-1920-614955.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    }
+
+
+
 header{
     background-color: red;
     text-align: center;  
+    
 }
+
+
+
+.tituloBiblioteca{
+    display: inline;
+}
+
 
 body{
     background-color: rgb(247, 247, 192)
