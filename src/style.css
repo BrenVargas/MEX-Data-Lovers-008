@@ -43,3 +43,14 @@ p{
     font-family: 'Days One', sans-serif;
     /* font-family: 'Fredoka One', cursive; */
 }
+
+.w3-card-8{
+background-color: rgb(59, 147, 199);
+width: 30%;
+height: 50%;
+border: double;
+display: inline-block;
+position: center;
+padding: 1em 1em 1em 1em;
+margin: 1em 1em 1em 1em;
+}
