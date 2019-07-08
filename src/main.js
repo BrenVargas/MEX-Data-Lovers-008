@@ -24,14 +24,20 @@ const root = document.getElementById("root");
     let pokeWeaknesses = element.weaknesses;
     let pokeNextEvolution = element.next_evolution;
   
-    str += `<div class="w3-card-8"><center>
-    <h2 class=""> Nombre del pokémon: ${pokeName}</h2> 
+    str += `
+    <div class="flip-container"><center>
+    <div class="card">
+    <div class="front">
     <img src="${pokeImg}" alt=""></img>
-    <p>Num. de Pokémon:"${pokeId}"</p>
-    <p>Tipo de pokémon: ${pokeType}</p>  
-    <p>Debilidades: ${pokeWeaknesses}</p> 
-    
-   </center></div>
+    <h2>${pokeName}</h2>
+    </div>
+    <div class="back">
+    <p>Núm. de Pokémon: ${pokeId}</p>
+    <p>Tipo de pokémon: ${pokeType}</p>
+    <p>Debilidades: ${pokeWeaknesses}</p>
+    </div>
+    </div>
+    </center></div>
     `;
   })
   root.innerHTML = str;

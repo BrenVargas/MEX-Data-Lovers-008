@@ -42,6 +42,7 @@ h1{
 
 #select-type:hover{
     background-color: rgb(196, 196, 196)
+    
 }
 
 #select-type{
@@ -66,13 +67,59 @@ p{
     /* font-family: 'Fredoka One', cursive; */
 }
 
-.w3-card-8{
-background-color: rgb(8, 166, 219);
-width: 30%;
-height: 50%;
-display: inline-block;
-position: center;
-padding: 1em 1em 1em 1em;
-margin: 1em 1em 1em 1em;
-box-shadow: 0 0 20px rgb(2, 2, 2);
-}
+
+
+.flip-container{
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    padding: 1em 1em 1em 1em;
+    position: relative;
+    margin: 30px auto;
+    width: 500px;
+    display: inline-block;
+  }
+ 
+  .card {
+    position: relative;
+    width: 500px;
+    height: 120px;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    /*transform-origin: 100% 25px;*/
+    margin: 5px;
+  }
+  .card:hover{
+       transform: rotateY(180deg);
+  }
+ 
+  .front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+  }
+  .front{
+    transform: rotateY(0deg);
+    /*z-index: 2;*/
+    background-color:rgb(35, 35, 161);
+    color: white;
+    font: 1em/1.8em;
+    font-family: 'Days One';
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .back{
+    font-family: 'Fredoka One';
+    transform: rotateY(180deg);
+     background: repeating-linear-gradient(
+      -45deg,
+      #d67171,
+      #7686dd 10px,
+      #e26d6d 10px,
+      #7e8fdd 20px
+    ); 
+  }
