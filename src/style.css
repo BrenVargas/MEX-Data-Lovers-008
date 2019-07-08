@@ -67,12 +67,12 @@ p{
 }
 
 .w3-card-8{
-background-color: rgb(59, 147, 199);
+background-color: rgb(8, 166, 219);
 width: 30%;
 height: 50%;
-border: ridge;
 display: inline-block;
 position: center;
 padding: 1em 1em 1em 1em;
 margin: 1em 1em 1em 1em;
+box-shadow: 0 0 20px rgb(2, 2, 2);
 }
