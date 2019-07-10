@@ -7,7 +7,7 @@ let imValue = imSelection.options[imSelection.selectedIndex].value;
 //console.log(typeof imValue);
 //console.log(imValue);
 
-let pokeFilterData = window.filterData(data, imValue);
+let pokeFilterData = window.data.filterData(data, imValue);
   
   
 //Ordenar data filtrada
@@ -23,7 +23,7 @@ let pokeFilterData = window.filterData(data, imValue);
     let sorValue = (imAscent.options[imAscent.selectedIndex].value);
     console.log(sorValue);
     
-    let pokeDataOrder = window.sortData(pokeFilterData, imValueOrder, sorValue);
+    let pokeDataOrder = window.data.sortData(pokeFilterData, imValueOrder, sorValue);
     console.log(pokeDataOrder);
     const root = document.getElementById("root");
 

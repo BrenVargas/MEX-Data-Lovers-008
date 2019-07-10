@@ -2,19 +2,19 @@
 // puedes ver como agregamos la función a nuestro objeto global window
 
 //Filtar data 
-const filterData = (data, condition) => {
+window.data = {
+filterData: (data, condition) => {
   
   let pokeTrueCondition = data.filter(dataPoke => dataPoke.type[0] == condition || dataPoke.type[1] == condition || dataPoke[2] == condition)
   console.log(pokeTrueCondition);
   
   return pokeTrueCondition;
-};
+},
 
-window.filterData = filterData ;
 
 //Ordenar data filtrada
 
-const sortData = (data, sortBy, sortOrder) => {
+sortData: (data, sortBy, sortOrder) => {
   let orderCamp = data.sort((a,b) => {
     if (sortOrder == "menor-mayor") {
     if(sortBy == "name"){
@@ -63,6 +63,7 @@ if (sortOrder == "mayor-menor") {
   })
   return orderCamp;
   
-};
+}
 
-window.sortData = sortData;
+
+}
