@@ -68,7 +68,15 @@ h1{
     border: 1px;
     display: inline-flex;
 }
-
+#select-sortOrder{
+    background-color: rgb(219, 216, 216);
+    font-family: 'Luckiest Guy', cursive;
+    /* font-size: 40px; */
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px;
+    display: inline-flex; 
+}
 #first-section{
     text-align: center;
 }

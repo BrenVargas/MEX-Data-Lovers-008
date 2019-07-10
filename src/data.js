@@ -14,8 +14,9 @@ window.pokeFil = pokeFil ;
 
 //Ordenar data filtrada
 
-const sortData = (data, sortBy) => {
-  let orderAsODes = data.sort((a,b) => {
+const sortData = (data, sortBy, sortOrder) => {
+  let orderCamp = data.sort((a,b) => {
+    if (sortOrder == "menor-mayor") {
     if(sortBy == "name"){
     if (a.name > b.name) {
       return 1;
@@ -45,8 +46,23 @@ const sortData = (data, sortBy) => {
     }
     return 0;
   }
+}
+if (sortOrder == "mayor-menor") {
+  if(sortBy == "name"){
+    return b.name.localeCompare(a.name);
+  }
+
+  if (sortBy == "id") {
+    return b.id - a.id;
+  }
+
+  if (sortBy == "weaknesses") {
+    return b.weaknesses - a.weaknesses;
+  }
+}
   })
-  return orderAsODes;
+  return orderCamp;
+  
 };
 
 window.sortData = sortData;
