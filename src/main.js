@@ -1,27 +1,37 @@
 const data = POKEMON.pokemon;
 
-
-
+//Código para filtrar por tipos
 let imSelection = document.getElementById("select-type");
-
-imSelection.addEventListener("click", () => {
+imSelection.addEventListener("change", () => {
 let imValue = imSelection.options[imSelection.selectedIndex].value;
-console.log(typeof imValue);
-console.log(imValue);
+//console.log(typeof imValue);
+//console.log(imValue);
 
-let pokeFilterData = window.pokeFil(data, imValue)
+let pokeFilterData = window.data.filterData(data, imValue);
+  
+  
+//Ordenar data filtrada
+  
+  let imOrdenation = document.getElementById("select-order");
+  imOrdenation.addEventListener("change", () => {
+  let imValueOrder = (imOrdenation.options[imOrdenation.selectedIndex].value);
+  console.log(imValueOrder);
+  console.log(typeof imValueOrder);
 
-
-console.log(pokeFilterData);
-
-const root = document.getElementById("root");
+  let imAscent = document.getElementById("select-sortOrder");
+  imAscent.addEventListener("change", () => {
+    let sorValue = (imAscent.options[imAscent.selectedIndex].value);
+    console.log(sorValue);
+    
+    let pokeDataOrder = window.data.sortData(pokeFilterData, imValueOrder, sorValue);
+    console.log(pokeDataOrder);
+    const root = document.getElementById("root");
 
 
   let str = " ";
   
-  pokeFilterData.forEach(element => {
+  pokeDataOrder.forEach(element => {
     let pokeId = element.id;
-    let pokeNum = element.num;
     let pokeName = element.name;
     let pokeImg = element.img;
     let pokeType = element.type;
@@ -44,33 +54,13 @@ const root = document.getElementById("root");
     </center></div>
     `;
   })
-
-  root.innerHTML = str;
-  
-  let selectOrder = document.getElementById("select-order");
-  
-let NewData = [];
-
-selectOrder.addEventListener("change", () => {
+root.innerHTML = str; 
     
- let selectUserDos = selectOrder.value;
- pokeOrder = pokeFilterData.sort(function(a,b){
-    return a.name.localeCompare(b.name);
-
-   pokeFilterData(pokeOrder);
-
-})
-
-
- })
-
-
+  } )
+  
+  
+  
+  
+  })
 });
-
-    
-
-
-
-
-
 
