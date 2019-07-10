@@ -4,7 +4,7 @@ body {
     position: absolute;
     width: 100%;
     display: table;
-    background-image: url("http://media.tumblr.com/tumblr_m7zi6upchE1qcsjxo.jpg");
+    background-image: url("https://www.desktopbackground.org/p/2010/04/24/6711_can-i-use-this-wallpaper-letsplay_1920x1200_h.png");
     background-repeat: repeat;
     background-attachment: fixed;
     }
@@ -54,6 +54,29 @@ h1{
     border: 1px;
 }
 
+#select-order:hover{
+    background-color: rgb(196, 196, 196)
+    
+}
+
+#select-order{
+    background-color: rgb(219, 216, 216);
+    font-family: 'Luckiest Guy', cursive;
+    /* font-size: 40px; */
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px;
+    display: inline-flex;
+}
+#select-sortOrder{
+    background-color: rgb(219, 216, 216);
+    font-family: 'Luckiest Guy', cursive;
+    /* font-size: 40px; */
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px;
+    display: inline-flex; 
+}
 #first-section{
     text-align: center;
 }
