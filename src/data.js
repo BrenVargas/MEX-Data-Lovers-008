@@ -12,3 +12,4 @@ const pokeFil = (data, condition) => {
 
 window.pokeFil = pokeFil ;
 
+// sortData(data, sortBy, sortOrder)

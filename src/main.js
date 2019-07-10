@@ -1,12 +1,16 @@
 const data = POKEMON.pokemon;
 
+
+
 let imSelection = document.getElementById("select-type");
+
 imSelection.addEventListener("click", () => {
 let imValue = imSelection.options[imSelection.selectedIndex].value;
 console.log(typeof imValue);
 console.log(imValue);
 
 let pokeFilterData = window.pokeFil(data, imValue)
+
 
 console.log(pokeFilterData);
 
@@ -40,11 +44,33 @@ const root = document.getElementById("root");
     </center></div>
     `;
   })
+
   root.innerHTML = str;
   
+  let selectOrder = document.getElementById("select-order");
+  
+let NewData = [];
+
+selectOrder.addEventListener("change", () => {
+    
+ let selectUserDos = selectOrder.value;
+ pokeOrder = pokeFilterData.sort(function(a,b){
+    return a.name.localeCompare(b.name);
+
+   pokeFilterData(pokeOrder);
+
+})
+
+
+ })
+
+
+});
 
     
-  
-});
+
+
+
+
 
 
