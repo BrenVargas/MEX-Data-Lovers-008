@@ -2,7 +2,7 @@
 // puedes ver como agregamos la función a nuestro objeto global window
 
 //Filtar data 
-const pokeFil = (data, condition) => {
+const filterData = (data, condition) => {
   
   let pokeTrueCondition = data.filter(dataPoke => dataPoke.type[0] == condition || dataPoke.type[1] == condition || dataPoke[2] == condition)
   console.log(pokeTrueCondition);
@@ -10,7 +10,7 @@ const pokeFil = (data, condition) => {
   return pokeTrueCondition;
 };
 
-window.pokeFil = pokeFil ;
+window.filterData = filterData ;
 
 //Ordenar data filtrada
 

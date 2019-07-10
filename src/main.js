@@ -7,16 +7,30 @@ let imValue = imSelection.options[imSelection.selectedIndex].value;
 //console.log(typeof imValue);
 //console.log(imValue);
 
-let pokeFilterData = window.pokeFil(data, imValue);
- 
-//console.log(pokeFilterData);
+let pokeFilterData = window.filterData(data, imValue);
+  
+  
+//Ordenar data filtrada
+  
+  let imOrdenation = document.getElementById("select-order");
+  imOrdenation.addEventListener("click", () => {
+  let imValueOrder = (imOrdenation.options[imOrdenation.selectedIndex].value);
+  console.log(imValueOrder);
+  console.log(typeof imValueOrder);
 
-const root = document.getElementById("root");
+  let imAscent = document.getElementById("select-sortOrder");
+  imAscent.addEventListener("click", () => {
+    let sorValue = (imAscent.options[imAscent.selectedIndex].value);
+    console.log(sorValue);
+    
+    let pokeDataOrder = window.sortData(pokeFilterData, imValueOrder, sorValue);
+    console.log(pokeDataOrder);
+    const root = document.getElementById("root");
 
 
   let str = " ";
   
-  pokeFilterData.forEach(element => {
+  pokeDataOrder.forEach(element => {
     let pokeId = element.id;
     let pokeName = element.name;
     let pokeImg = element.img;
@@ -40,23 +54,8 @@ const root = document.getElementById("root");
     </center></div>
     `;
   })
-  root.innerHTML = str;   
-  
-  //Ordenar data filtrada
-  
-  let imOrdenation = document.getElementById("select-order");
-  imOrdenation.addEventListener("click", () => {
-  let imValueOrder = (imOrdenation.options[imOrdenation.selectedIndex].value);
-  console.log(imValueOrder);
-  console.log(typeof imValueOrder);
-
-  let imAscent = document.getElementById("select-sortOrder");
-  imAscent.addEventListener("click", () => {
-    let sorValue = (imAscent.options[imAscent.selectedIndex].value);
-    console.log(sorValue);
+  root.innerHTML = str; 
     
-    let pokeDataOrder = window.sortData(pokeFilterData, imValueOrder, sorValue);
-    console.log(pokeDataOrder);
   } )
   
   
