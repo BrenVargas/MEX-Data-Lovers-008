@@ -5,7 +5,7 @@
 window.data = {
 filterData: (data, condition) => {
   
-  let pokeTrueCondition = data.filter(dataPoke => dataPoke.type[0] == condition || dataPoke.type[1] == condition || dataPoke[2] == condition)
+  let pokeTrueCondition = data.filter(dataPoke => dataPoke.type[0] == condition || dataPoke.type[1] == condition || dataPoke[2] == condition);
   console.log(pokeTrueCondition);
   
   return pokeTrueCondition;
@@ -20,7 +20,7 @@ sortData: (data, sortBy, sortOrder) => {
     if(sortBy == "name"){
     if (a.name > b.name) {
       return 1;
-    };
+    }
     if (a.name < b.name) {
       return -1;
     }
@@ -60,10 +60,10 @@ if (sortOrder == "mayor-menor") {
     return b.weaknesses - a.weaknesses;
   }
 }
-  })
+  });
   return orderCamp;
   
 }
 
 
-}
+};

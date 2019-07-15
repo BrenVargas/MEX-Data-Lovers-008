@@ -3,19 +3,46 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Righteous&display=swap"
       rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css?family=Days+One|Fredoka+One|Luckiest+Guy&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
 
   </head>
   <body>
+    
+    <div class = "container">
 
     <header>
+        <div class= "info">
+            <a href="#" id="abrir"></i><i class="fa fa-info-circle" style="font-size:48px"></i>
+              <br></i></a>
+
+          </div>
+
+          <div id="miModal" class="modal">
+            <div class="flex" id="flex">
+              <div class= "contenido-modal">
+                <div class= "modal-header flex">
+                  <h2>¿Qué es Biblioteca Pokémon?</h2>
+                  <span class="close" id="close">&times;</span>
+                </div>
+                <div class= "modal-body">
+                <p>Es una aplicación web para aquellos principiantes en Pokémon Go que deseen conocer las características de los pokemones por simple curiosidad o por diversión, también es útil como una introducción a la temática Pokémon Go.</p>
+                </div>
+                <div class= "modal-footer">
+                  <h3>Hecho por &copy; Berenice y Brenda</h3>
+                </div>
+              </div>
+            </div>
+          </div>
       <h1 class="tituloBiblioteca">BIBLIOTECA</h1>
       <img id="logo-pokemon" src="http://cort.as/-KVY4" alt="" />
     </header>
@@ -23,7 +50,7 @@
 
       <section id= "first-section">
 
-              <select name="selecttype" id="select-type">
+              <select name="selecttype" id="select-type" class ="selection">
                   <option value="All">Elige tu tipo de pokémon</option>
                   <option value="Water">AGUA</option>
                   <option value="Bug">BICHO</option>
@@ -43,20 +70,24 @@
 
                 </select>
 
-              <select id="select-order">
+              <select id="select-order" class ="selection">
               <option value="All-second">ORDENAR POR</option>
               <option value="name">A-Z</option>
               <option value="id">POR NÚMERO DE POKÉMON</option>
               <option value="weaknesses">POR DEBILIDAD</option>
             </select>
             
-            <select name="" id="select-sortOrder">
+            <select name="" id="select-sortOrder" class= "selection">
             <option value="All-third">¿CÓMO QUIERES ORDENAR?</option>
             <option value="menor-mayor">ASCENDENTE</option>
             <option value="mayor-menor">DESCENDENTE</option>
           </select>
+
+
+
+          
             
-     
+          <i class="fas fa-info"></i>
 
             
 
@@ -67,7 +98,7 @@
 
              
             
-            <center><br><br><br><br><br><br><br><br><img id="pokebola" src="http://25.media.tumblr.com/tumblr_m9a6eqNYze1qfqgb9o1_500.gif" alt=""></center>
+            <center><br><br><br><br><br><br><img id="pokebola" src="http://25.media.tumblr.com/tumblr_m9a6eqNYze1qfqgb9o1_500.gif" alt=""></center>
          
         </section>
 
@@ -82,6 +113,6 @@
       <!-- <script src="./data/lol/lol.js"></script> -->
       <script src="data.js"></script>
       <script src="main.js"></script>
-   
+    </div>
   </body>
 </html>

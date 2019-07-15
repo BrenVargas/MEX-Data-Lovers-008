@@ -36,13 +36,12 @@ let pokeFilterData = window.data.filterData(data, imValue);
     let pokeImg = element.img;
     let pokeType = element.type;
     let pokeWeaknesses = element.weaknesses;
-    let pokeNextEvolution = element.next_evolution;
-  
+
     str += `
     <div class="flip-container"><center>
     <div class="card">
     <div class="front">
-    <img src="${pokeImg}" alt=""></img>
+    <img class="imgpoke" src="${pokeImg}" alt=""></img>
     <h2>${pokeName}</h2>
     </div>
     <div class="back">
@@ -53,14 +52,35 @@ let pokeFilterData = window.data.filterData(data, imValue);
     </div>
     </center></div>
     `;
-  })
-root.innerHTML = str; 
+  });
+root.innerHTML = str;
     
-  } )
+  });
   
   
   
-  
-  })
+  });
 });
 
+
+let modal= document.getElementById("miModal");
+let flex= document.getElementById("flex");
+let abrir= document.getElementById("abrir");
+let cerrar= document.getElementById("close");
+
+
+abrir.addEventListener("click", function(){
+ modal.style.display = "block";
+
+});
+
+cerrar.addEventListener("click", function(){
+ modal.style.display = "none";
+
+});
+
+window.addEventListener("click", function(e){
+ if(e.target == flex){
+   modal.style.display = "none";
+ }
+});
